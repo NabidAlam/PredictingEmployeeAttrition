@@ -4,7 +4,7 @@ Employee Attrition Prediction with Decision Trees, Random Forest, and XGBoost
 
 Dataset: https://www.kaggle.com/datasets/patelprashant/employee-attrition
 
-The dataset containing demographic details, work-related metrics and an attrition flag.
+The dataset contains demographic details, work-related metrics and an attrition flag.
 
 EmployeeNumber - Employee Identifier
 Attrition - Did the employee attrite?
