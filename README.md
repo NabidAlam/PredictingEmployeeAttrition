@@ -4,7 +4,27 @@ Employee Attrition Prediction with Decision Trees, Random Forest, and XGBoost
 
 Dataset: https://www.kaggle.com/datasets/patelprashant/employee-attrition
 
-The dataset contains demographic details, work-related metrics and an attrition flag.
+Dataset Description:
+The dataset contains information about past and current employees of an organization, with various data points relevant to employee attrition. The primary objective is to analyze the factors that influence employee retention and attrition. The dataset includes the following variables:
+
+1. Education: The educational level of employees, categorized from 'Below College' to 'Doctor'.
+2. EnvironmentSatisfaction: Employee satisfaction with the work environment, rated from 'Low' to 'Very High'.
+3. Job Involvement: Level of employee involvement in their job, rated from 'Low' to 'Very High'.
+4. JobSatisfaction: Employee job satisfaction level, rated from 'Low' to 'Very High'.
+5. Performance Rating: Employee performance rating, categorized as 'Low', 'Good', 'Excellent', or 'Outstanding'.
+6. RelationshipSatisfaction: Employee satisfaction with work relationships is rated from 'Low' to 'Very High'.
+7. WorkLifeBalance: Employee work-life balance, categorized as 'Bad', 'Good', 'Better', or 'Best'.
+
+Objective:
+The main objective of this dataset analysis is to understand the relationship between workforce attrition and various factors influencing employee retention. By exploring this data, we aim to identify the key factors contributing to employee attrition and determine possible strategies to retain valuable employees.
+
+Acknowledgments:
+The dataset and analysis are part of the Watson Analytics use case for HR, focusing on retaining valuable employees. The information provided in this dataset is sourced from IBM's Watson Analytics blog.
+
+Inspiration:
+This dataset is intended to inspire HR analysts and organizations to gain insights into the reasons behind employee attrition. By leveraging this data, companies can make data-driven decisions to improve employee retention strategies and create a positive work environment to retain top talent.
+
+The dataset contains demographic details, work-related metrics, and an attrition flag.
 
 EmployeeNumber - Employee Identifier
 Attrition - Did the employee attrite?
