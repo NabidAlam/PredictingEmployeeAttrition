@@ -14,54 +14,47 @@ pip install nbconvert[webpdf]
 ```
 
     Requirement already satisfied: nbconvert[webpdf] in c:\users\msn\appdata\local\anaconda3\lib\site-packages (6.5.4)
-    Requirement already satisfied: lxml in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.9.1)
-    Requirement already satisfied: jupyterlab-pygments in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.1.2)
-    Requirement already satisfied: jupyter-core>=4.7 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (5.2.0)
-    Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (1.5.0)
-    Requirement already satisfied: beautifulsoup4 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.11.1)
-    Requirement already satisfied: packaging in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (22.0)
     Requirement already satisfied: defusedxml in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.7.1)
-    Requirement already satisfied: entrypoints>=0.2.2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.4)
-    Requirement already satisfied: pygments>=2.4.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (2.11.2)
-    Requirement already satisfied: jinja2>=3.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (3.1.2)
-    Requirement already satisfied: tinycss2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (1.2.1)
-    Requirement already satisfied: mistune<2,>=0.8.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.8.4)
-    Requirement already satisfied: bleach in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.1.0)
     Requirement already satisfied: nbclient>=0.5.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.5.13)
-    Requirement already satisfied: nbformat>=5.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (5.7.0)
-    Requirement already satisfied: MarkupSafe>=2.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (2.1.1)
     Requirement already satisfied: traitlets>=5.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (5.7.1)
-    Collecting pyppeteer<1.1,>=1
-      Downloading pyppeteer-1.0.2-py3-none-any.whl (83 kB)
-         ---------------------------------------- 83.4/83.4 kB 2.4 MB/s eta 0:00:00
+    Requirement already satisfied: beautifulsoup4 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.11.1)
+    Requirement already satisfied: lxml in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.9.1)
+    Requirement already satisfied: jinja2>=3.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (3.1.2)
+    Requirement already satisfied: packaging in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (22.0)
+    Requirement already satisfied: jupyter-core>=4.7 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (5.2.0)
+    Requirement already satisfied: bleach in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (4.1.0)
+    Requirement already satisfied: mistune<2,>=0.8.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.8.4)
+    Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (1.5.0)
+    Requirement already satisfied: nbformat>=5.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (5.7.0)
+    Requirement already satisfied: jupyterlab-pygments in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.1.2)
+    Requirement already satisfied: entrypoints>=0.2.2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (0.4)
+    Requirement already satisfied: tinycss2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (1.2.1)
+    Requirement already satisfied: MarkupSafe>=2.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (2.1.1)
+    Requirement already satisfied: pygments>=2.4.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (2.11.2)
+    Requirement already satisfied: pyppeteer<1.1,>=1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbconvert[webpdf]) (1.0.2)
     Requirement already satisfied: pywin32>=1.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jupyter-core>=4.7->nbconvert[webpdf]) (305.1)
     Requirement already satisfied: platformdirs>=2.5 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jupyter-core>=4.7->nbconvert[webpdf]) (2.5.2)
-    Requirement already satisfied: nest-asyncio in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbclient>=0.5.0->nbconvert[webpdf]) (1.5.6)
     Requirement already satisfied: jupyter-client>=6.1.5 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbclient>=0.5.0->nbconvert[webpdf]) (7.3.4)
+    Requirement already satisfied: nest-asyncio in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbclient>=0.5.0->nbconvert[webpdf]) (1.5.6)
     Requirement already satisfied: jsonschema>=2.6 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbformat>=5.1->nbconvert[webpdf]) (4.17.3)
     Requirement already satisfied: fastjsonschema in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from nbformat>=5.1->nbconvert[webpdf]) (2.16.2)
     Requirement already satisfied: appdirs<2.0.0,>=1.4.3 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (1.4.4)
-    Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (1.26.14)
-    Collecting websockets<11.0,>=10.0
-      Downloading websockets-10.4-cp310-cp310-win_amd64.whl (101 kB)
-         ---------------------------------------- 101.4/101.4 kB ? eta 0:00:00
-    Collecting pyee<9.0.0,>=8.1.0
-      Downloading pyee-8.2.2-py2.py3-none-any.whl (12 kB)
+    Requirement already satisfied: websockets<11.0,>=10.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (10.4)
     Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (4.64.1)
     Requirement already satisfied: certifi>=2021 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (2022.12.7)
+    Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (1.26.14)
+    Requirement already satisfied: pyee<9.0.0,>=8.1.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (8.2.2)
     Requirement already satisfied: importlib-metadata>=1.4 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pyppeteer<1.1,>=1->nbconvert[webpdf]) (4.11.3)
     Requirement already satisfied: soupsieve>1.2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from beautifulsoup4->nbconvert[webpdf]) (2.3.2.post1)
     Requirement already satisfied: six>=1.9.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from bleach->nbconvert[webpdf]) (1.16.0)
     Requirement already satisfied: webencodings in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from bleach->nbconvert[webpdf]) (0.5.1)
     Requirement already satisfied: zipp>=0.5 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from importlib-metadata>=1.4->pyppeteer<1.1,>=1->nbconvert[webpdf]) (3.11.0)
-    Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert[webpdf]) (0.18.0)
     Requirement already satisfied: attrs>=17.4.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert[webpdf]) (22.1.0)
+    Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert[webpdf]) (0.18.0)
     Requirement already satisfied: pyzmq>=23.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jupyter-client>=6.1.5->nbclient>=0.5.0->nbconvert[webpdf]) (23.2.0)
     Requirement already satisfied: tornado>=6.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jupyter-client>=6.1.5->nbclient>=0.5.0->nbconvert[webpdf]) (6.1)
     Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from jupyter-client>=6.1.5->nbclient>=0.5.0->nbconvert[webpdf]) (2.8.2)
     Requirement already satisfied: colorama in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from tqdm<5.0.0,>=4.42.1->pyppeteer<1.1,>=1->nbconvert[webpdf]) (0.4.6)
-    Installing collected packages: pyee, websockets, pyppeteer
-    Successfully installed pyee-8.2.2 pyppeteer-1.0.2 websockets-10.4
     Note: you may need to restart the kernel to use updated packages.
     
 
@@ -1372,9 +1365,9 @@ num_rows = (num_cols + 2) // 3  # To make sure there are enough rows for the sub
 fig, axs = plt.subplots(nrows=num_rows, ncols=3, figsize=(15, 5*num_rows))
 axs = axs.flatten()
 
-# Create a histogram for each integer variable with hue='Attrition'
+# Create a histogram for each integer variable
 for i, var in enumerate(int_vars):
-    sns.histplot(data=df, x=var, hue='Attrition', kde=True, ax=axs[i])
+    sns.histplot(data=df, x=var, kde=True, ax=axs[i])
     axs[i].set_title(var)
 
 # Remove any extra empty subplots if needed
@@ -1387,168 +1380,12 @@ fig.tight_layout()
 
 # Show plot
 plt.show()
+
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    LinAlgError                               Traceback (most recent call last)
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\stats\_kde.py:223, in gaussian_kde.__init__(self, dataset, bw_method, weights)
-        222 try:
-    --> 223     self.set_bandwidth(bw_method=bw_method)
-        224 except linalg.LinAlgError as e:
     
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\stats\_kde.py:571, in gaussian_kde.set_bandwidth(self, bw_method)
-        569     raise ValueError(msg)
-    --> 571 self._compute_covariance()
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\stats\_kde.py:583, in gaussian_kde._compute_covariance(self)
-        580     self._data_covariance = atleast_2d(cov(self.dataset, rowvar=1,
-        581                                        bias=False,
-        582                                        aweights=self.weights))
-    --> 583     self._data_cho_cov = linalg.cholesky(self._data_covariance,
-        584                                          lower=True)
-        586 self.covariance = self._data_covariance * self.factor**2
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\linalg\_decomp_cholesky.py:89, in cholesky(a, lower, overwrite_a, check_finite)
-         46 """
-         47 Compute the Cholesky decomposition of a matrix.
-         48 
-       (...)
-         87 
-         88 """
-    ---> 89 c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,
-         90                      check_finite=check_finite)
-         91 return c
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\linalg\_decomp_cholesky.py:37, in _cholesky(a, lower, overwrite_a, clean, check_finite)
-         36 if info > 0:
-    ---> 37     raise LinAlgError("%d-th leading minor of the array is not positive "
-         38                       "definite" % info)
-         39 if info < 0:
-    
-
-    LinAlgError: 1-th leading minor of the array is not positive definite
-
-    
-    The above exception was the direct cause of the following exception:
-    
-
-    LinAlgError                               Traceback (most recent call last)
-
-    Cell In[249], line 12
-         10 # Create a histogram for each integer variable with hue='Attrition'
-         11 for i, var in enumerate(int_vars):
-    ---> 12     sns.histplot(data=df, x=var, hue='Attrition', kde=True, ax=axs[i])
-         13     axs[i].set_title(var)
-         15 # Remove any extra empty subplots if needed
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\distributions.py:1432, in histplot(data, x, y, hue, weights, stat, bins, binwidth, binrange, discrete, cumulative, common_bins, common_norm, multiple, element, fill, shrink, kde, kde_kws, line_kws, thresh, pthresh, pmax, cbar, cbar_ax, cbar_kws, palette, hue_order, hue_norm, color, log_scale, legend, ax, **kwargs)
-       1421 estimate_kws = dict(
-       1422     stat=stat,
-       1423     bins=bins,
-       (...)
-       1427     cumulative=cumulative,
-       1428 )
-       1430 if p.univariate:
-    -> 1432     p.plot_univariate_histogram(
-       1433         multiple=multiple,
-       1434         element=element,
-       1435         fill=fill,
-       1436         shrink=shrink,
-       1437         common_norm=common_norm,
-       1438         common_bins=common_bins,
-       1439         kde=kde,
-       1440         kde_kws=kde_kws,
-       1441         color=color,
-       1442         legend=legend,
-       1443         estimate_kws=estimate_kws,
-       1444         line_kws=line_kws,
-       1445         **kwargs,
-       1446     )
-       1448 else:
-       1450     p.plot_bivariate_histogram(
-       1451         common_bins=common_bins,
-       1452         common_norm=common_norm,
-       (...)
-       1462         **kwargs,
-       1463     )
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\distributions.py:451, in _DistributionPlotter.plot_univariate_histogram(self, multiple, element, fill, common_norm, common_bins, shrink, kde, kde_kws, color, legend, line_kws, estimate_kws, **plot_kws)
-        449     kde_kws["cumulative"] = estimate_kws["cumulative"]
-        450     log_scale = self._log_scaled(self.data_variable)
-    --> 451     densities = self._compute_univariate_density(
-        452         self.data_variable,
-        453         common_norm,
-        454         common_bins,
-        455         kde_kws,
-        456         log_scale,
-        457         warn_singular=False,
-        458     )
-        460 # First pass through the data to compute the histograms
-        461 for sub_vars, sub_data in self.iter_data("hue", from_comp_data=True):
-        462 
-        463     # Prepare the relevant data
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\distributions.py:317, in _DistributionPlotter._compute_univariate_density(self, data_variable, common_norm, common_grid, estimate_kws, log_scale, warn_singular)
-        315     if common_grid:
-        316         all_observations = self.comp_data.dropna()
-    --> 317         estimator.define_support(all_observations[data_variable])
-        318 else:
-        319     common_norm = False
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\_statistics.py:127, in KDE.define_support(self, x1, x2, weights, cache)
-        125 """Create the evaluation grid for a given data set."""
-        126 if x2 is None:
-    --> 127     support = self._define_support_univariate(x1, weights)
-        128 else:
-        129     support = self._define_support_bivariate(x1, x2, weights)
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\_statistics.py:99, in KDE._define_support_univariate(self, x, weights)
-         97 def _define_support_univariate(self, x, weights):
-         98     """Create a 1D grid of evaluation points."""
-    ---> 99     kde = self._fit(x, weights)
-        100     bw = np.sqrt(kde.covariance.squeeze())
-        101     grid = self._define_support_grid(
-        102         x, bw, self.cut, self.clip, self.gridsize
-        103     )
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\seaborn\_statistics.py:142, in KDE._fit(self, fit_data, weights)
-        139 if weights is not None:
-        140     fit_kws["weights"] = weights
-    --> 142 kde = gaussian_kde(fit_data, **fit_kws)
-        143 kde.set_bandwidth(kde.factor * self.bw_adjust)
-        145 return kde
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\scipy\stats\_kde.py:232, in gaussian_kde.__init__(self, dataset, bw_method, weights)
-        224 except linalg.LinAlgError as e:
-        225     msg = ("The data appears to lie in a lower-dimensional subspace "
-        226            "of the space in which it is expressed. This has resulted "
-        227            "in a singular data covariance matrix, which cannot be "
-       (...)
-        230            "analysis / dimensionality reduction and using "
-        231            "`gaussian_kde` with the transformed data.")
-    --> 232     raise linalg.LinAlgError(msg) from e
-    
-
-    LinAlgError: The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
-
-
-
-    
-![png](output_13_1.png)
+![png](output_13_0.png)
     
 
 
@@ -1803,8 +1640,8 @@ y_train = y_train.drop(y_train.index[outlier_indices])
 ```
 
     Requirement already satisfied: xgboost in c:\users\msn\appdata\local\anaconda3\lib\site-packages (1.7.6)
-    Requirement already satisfied: scipy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from xgboost) (1.10.0)
     Requirement already satisfied: numpy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from xgboost) (1.23.5)
+    Requirement already satisfied: scipy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from xgboost) (1.10.0)
     
 
 
@@ -1891,7 +1728,7 @@ dtree.fit(X_train, y_train)
 
 
 
-<style>#sk-container-id-14 {color: black;background-color: white;}#sk-container-id-14 pre{padding: 0;}#sk-container-id-14 div.sk-toggleable {background-color: white;}#sk-container-id-14 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-14 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-14 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-14 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-14 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-14 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-14 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-14 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-14 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-14 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-14 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-14 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-14 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-14 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-14 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-14 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-14 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-14 div.sk-item {position: relative;z-index: 1;}#sk-container-id-14 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-14 div.sk-item::before, #sk-container-id-14 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-14 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-14 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-14 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-14 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-14 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-14 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-14 div.sk-label-container {text-align: center;}#sk-container-id-14 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-14 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-14" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=8, random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-14" type="checkbox" checked><label for="sk-estimator-id-14" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=8, random_state=0)</pre></div></div></div></div></div>
+<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=8, random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(class_weight=&#x27;balanced&#x27;, max_depth=8, random_state=0)</pre></div></div></div></div></div>
 
 
 
@@ -1952,22 +1789,22 @@ plt.show()
 ```
 
     Requirement already satisfied: shap in c:\users\msn\appdata\local\anaconda3\lib\site-packages (0.42.1)
-    Requirement already satisfied: numba in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (0.56.4)
     Requirement already satisfied: scipy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.10.0)
-    Requirement already satisfied: scikit-learn in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.2.1)
+    Requirement already satisfied: tqdm>=4.27.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (4.64.1)
+    Requirement already satisfied: slicer==0.0.7 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (0.0.7)
     Requirement already satisfied: cloudpickle in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (2.0.0)
+    Requirement already satisfied: numba in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (0.56.4)
+    Requirement already satisfied: numpy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.23.5)
     Requirement already satisfied: pandas in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.5.3)
     Requirement already satisfied: packaging>20.9 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (22.0)
-    Requirement already satisfied: tqdm>=4.27.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (4.64.1)
-    Requirement already satisfied: numpy in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.23.5)
-    Requirement already satisfied: slicer==0.0.7 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (0.0.7)
+    Requirement already satisfied: scikit-learn in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from shap) (1.2.1)
     Requirement already satisfied: colorama in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from tqdm>=4.27.0->shap) (0.4.6)
     Requirement already satisfied: setuptools in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from numba->shap) (65.6.3)
     Requirement already satisfied: llvmlite<0.40,>=0.39.0dev0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from numba->shap) (0.39.1)
-    Requirement already satisfied: pytz>=2020.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pandas->shap) (2022.7)
     Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pandas->shap) (2.8.2)
-    Requirement already satisfied: threadpoolctl>=2.0.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from scikit-learn->shap) (2.2.0)
+    Requirement already satisfied: pytz>=2020.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from pandas->shap) (2022.7)
     Requirement already satisfied: joblib>=1.1.1 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from scikit-learn->shap) (1.1.1)
+    Requirement already satisfied: threadpoolctl>=2.0.0 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from scikit-learn->shap) (2.2.0)
     Requirement already satisfied: six>=1.5 in c:\users\msn\appdata\local\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas->shap) (1.16.0)
     
 
@@ -2049,7 +1886,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x1da04d1f730>
+    <matplotlib.legend.Legend at 0x18cf0bca4d0>
 
 
 
@@ -2090,7 +1927,7 @@ rfc.fit(X_train, y_train)
 
 
 
-<style>#sk-container-id-16 {color: black;background-color: white;}#sk-container-id-16 pre{padding: 0;}#sk-container-id-16 div.sk-toggleable {background-color: white;}#sk-container-id-16 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-16 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-16 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-16 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-16 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-16 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-16 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-16 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-16 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-16 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-16 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-16 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-16 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-16 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-16 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-16 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-16 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-16 div.sk-item {position: relative;z-index: 1;}#sk-container-id-16 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-16 div.sk-item::before, #sk-container-id-16 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-16 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-16 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-16 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-16 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-16 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-16 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-16 div.sk-label-container {text-align: center;}#sk-container-id-16 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-16 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-16" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier(class_weight=&#x27;balanced&#x27;, random_state=42)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-16" type="checkbox" checked><label for="sk-estimator-id-16" class="sk-toggleable__label sk-toggleable__label-arrow">RandomForestClassifier</label><div class="sk-toggleable__content"><pre>RandomForestClassifier(class_weight=&#x27;balanced&#x27;, random_state=42)</pre></div></div></div></div></div>
+<style>#sk-container-id-3 {color: black;background-color: white;}#sk-container-id-3 pre{padding: 0;}#sk-container-id-3 div.sk-toggleable {background-color: white;}#sk-container-id-3 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-3 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-3 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-3 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-3 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-3 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-3 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-3 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-3 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-3 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-3 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-3 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-3 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-3 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-3 div.sk-item {position: relative;z-index: 1;}#sk-container-id-3 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-3 div.sk-item::before, #sk-container-id-3 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-3 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-3 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-3 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-3 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-3 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-3 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-3 div.sk-label-container {text-align: center;}#sk-container-id-3 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-3 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-3" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier(class_weight=&#x27;balanced&#x27;, random_state=42)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-3" type="checkbox" checked><label for="sk-estimator-id-3" class="sk-toggleable__label sk-toggleable__label-arrow">RandomForestClassifier</label><div class="sk-toggleable__content"><pre>RandomForestClassifier(class_weight=&#x27;balanced&#x27;, random_state=42)</pre></div></div></div></div></div>
 
 
 
@@ -2165,6 +2002,15 @@ shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values[1], X_test.values, feature_names = X_test.columns)
 ```
 
+    No data for colormapping provided via 'c'. Parameters 'vmin', 'vmax' will be ignored
+    
+
+
+    
+![png](output_43_1.png)
+    
+
+
 
 ```python
 from sklearn.metrics import confusion_matrix
@@ -2176,6 +2022,19 @@ plt.xlabel('Predicted label')
 all_sample_title = 'Accuracy Score for Random Forest: {0}'.format(rfc.score(X_test, y_test))
 plt.title(all_sample_title, size = 15)
 ```
+
+
+
+
+    Text(0.5, 1.0, 'Accuracy Score for Random Forest: 0.8503401360544217')
+
+
+
+
+    
+![png](output_44_1.png)
+    
+
 
 
 ```python
@@ -2195,6 +2054,19 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC Curve', size = 15)
 plt.legend()
 ```
+
+
+
+
+    <matplotlib.legend.Legend at 0x18cf0c58700>
+
+
+
+
+    
+![png](output_45_1.png)
+    
+
 
 
 ```python
@@ -2220,6 +2092,9 @@ grid_search.fit(X_train, y_train)
 print(grid_search.best_params_)
 ```
 
+    {'gamma': 0, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}
+    
+
 
 ```python
 from xgboost import XGBClassifier
@@ -2228,11 +2103,41 @@ xgb.fit(X_train, y_train)
 ```
 
 
+
+
+<style>#sk-container-id-4 {color: black;background-color: white;}#sk-container-id-4 pre{padding: 0;}#sk-container-id-4 div.sk-toggleable {background-color: white;}#sk-container-id-4 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-4 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-4 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-4 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-4 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-4 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-4 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-4 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-4 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-4 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-4 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-4 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-4 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-4 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-4 div.sk-item {position: relative;z-index: 1;}#sk-container-id-4 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-4 div.sk-item::before, #sk-container-id-4 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-4 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-4 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-4 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-4 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-4 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-4 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-4 div.sk-label-container {text-align: center;}#sk-container-id-4 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-4 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-4" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=0.2, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=200, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-4" type="checkbox" checked><label for="sk-estimator-id-4" class="sk-toggleable__label sk-toggleable__label-arrow">XGBClassifier</label><div class="sk-toggleable__content"><pre>XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=0.2, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=200, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)</pre></div></div></div></div></div>
+
+
+
+
 ```python
 from sklearn.metrics import accuracy_score
 y_pred = xgb.predict(X_test)
 print("Accuracy Score :", round(accuracy_score(y_test, y_pred)*100 ,2), "%")
 ```
+
+    Accuracy Score : 86.39 %
+    
 
 
 ```python
@@ -2244,6 +2149,13 @@ print('Jaccard Score : ',(jaccard_score(y_test, y_pred, average='micro')))
 print('Log Loss : ',(log_loss(y_test, y_pred)))
 ```
 
+    F-1 Score :  0.8639455782312925
+    Precision Score :  0.8639455782312925
+    Recall Score :  0.8639455782312925
+    Jaccard Score :  0.7604790419161677
+    Log Loss :  4.903898420288048
+    
+
 
 ```python
 import shap
@@ -2251,6 +2163,15 @@ explainer = shap.TreeExplainer(xgb)
 shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test)
 ```
+
+    No data for colormapping provided via 'c'. Parameters 'vmin', 'vmax' will be ignored
+    
+
+
+    
+![png](output_50_1.png)
+    
+
 
 
 ```python
@@ -2263,6 +2184,19 @@ plt.xlabel('Predicted label')
 all_sample_title = 'Accuracy Score for XGBoost: {0}'.format(xgb.score(X_test, y_test))
 plt.title(all_sample_title, size = 15)
 ```
+
+
+
+
+    Text(0.5, 1.0, 'Accuracy Score for XGBoost: 0.8639455782312925')
+
+
+
+
+    
+![png](output_51_1.png)
+    
+
 
 
 ```python
@@ -2284,14 +2218,283 @@ plt.legend()
 ```
 
 
+
+
+    <matplotlib.legend.Legend at 0x18cf0ac17e0>
+
+
+
+
+    
+![png](output_52_1.png)
+    
+
+
+
 ```python
 df1 = pd.read_csv('employee.csv')
 df1.head()
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Attrition</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EmployeeCount</th>
+      <th>EmployeeNumber</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>HourlyRate</th>
+      <th>JobInvolvement</th>
+      <th>JobLevel</th>
+      <th>JobRole</th>
+      <th>JobSatisfaction</th>
+      <th>MaritalStatus</th>
+      <th>MonthlyIncome</th>
+      <th>MonthlyRate</th>
+      <th>NumCompaniesWorked</th>
+      <th>Over18</th>
+      <th>OverTime</th>
+      <th>PercentSalaryHike</th>
+      <th>PerformanceRating</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StandardHours</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>41</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1102</td>
+      <td>Sales</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Female</td>
+      <td>94</td>
+      <td>3</td>
+      <td>2</td>
+      <td>Sales Executive</td>
+      <td>4</td>
+      <td>Single</td>
+      <td>5993</td>
+      <td>19479</td>
+      <td>8</td>
+      <td>Y</td>
+      <td>Yes</td>
+      <td>11</td>
+      <td>3</td>
+      <td>1</td>
+      <td>80</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>49</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>279</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Male</td>
+      <td>61</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Research Scientist</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>5130</td>
+      <td>24907</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>No</td>
+      <td>23</td>
+      <td>4</td>
+      <td>4</td>
+      <td>80</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>37</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1373</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Other</td>
+      <td>1</td>
+      <td>4</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>92</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Laboratory Technician</td>
+      <td>3</td>
+      <td>Single</td>
+      <td>2090</td>
+      <td>2396</td>
+      <td>6</td>
+      <td>Y</td>
+      <td>Yes</td>
+      <td>15</td>
+      <td>3</td>
+      <td>2</td>
+      <td>80</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>33</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>1392</td>
+      <td>Research &amp; Development</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>5</td>
+      <td>4</td>
+      <td>Female</td>
+      <td>56</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Research Scientist</td>
+      <td>3</td>
+      <td>Married</td>
+      <td>2909</td>
+      <td>23159</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Yes</td>
+      <td>11</td>
+      <td>3</td>
+      <td>3</td>
+      <td>80</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>591</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>7</td>
+      <td>1</td>
+      <td>Male</td>
+      <td>40</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Laboratory Technician</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>3468</td>
+      <td>16632</td>
+      <td>9</td>
+      <td>Y</td>
+      <td>No</td>
+      <td>12</td>
+      <td>3</td>
+      <td>4</td>
+      <td>80</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
 ```python
-df1.drop(columns=['Unnamed: 0','EmployeeNumber', 'StandardHours','Over18', 'PerformanceRating'], inplace=True)
+df1.drop(columns=['EmployeeNumber', 'StandardHours', 'Over18', 'PerformanceRating'], inplace=True)
+
 ```
 
 
@@ -2313,6 +2516,16 @@ for col in df1.select_dtypes(include=['object']).columns:
     # Print the column name and the unique encoded values
     print(f"{col}: {df1[col].unique()}")
 ```
+
+    Attrition: [1 0]
+    BusinessTravel: [2 1 0]
+    Department: [2 1 0]
+    EducationField: [1 4 3 2 5 0]
+    Gender: [0 1]
+    JobRole: [7 6 2 4 0 3 8 5 1]
+    MaritalStatus: [2 1 0]
+    OverTime: [1 0]
+    
 
 
 ```python
@@ -2449,12 +2662,600 @@ print("Linear Regression - Best Cross-validation RMSE:", np.sqrt(-linear_grid_se
 
 ```
 
+    Linear Regression - Cross-validation RMSE: 1446.717735010558
+    Polynomial Regression - Cross-validation RMSE: 1915.870471038135
+    
+
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    
+
+    Decision Tree Regressor - Best Parameters: {'max_depth': 4, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 2}
+    Decision Tree Regressor - Best Cross-validation RMSE: 1214.3940615186618
+    Random Forest Regressor - Best Parameters: {'max_depth': 5, 'min_samples_split': 2, 'n_estimators': 150}
+    Random Forest Regressor - Best Cross-validation RMSE: 1184.286013963757
+    XGBoost Regressor - Best Parameters: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}
+    XGBoost Regressor - Best Cross-validation RMSE: 1125.815170024027
+    
+
+
+    ---------------------------------------------------------------------------
+
+    ValueError                                Traceback (most recent call last)
+
+    Cell In[63], line 88
+         86 # GridSearchCV for Polynomial Regression
+         87 poly_grid_search = GridSearchCV(poly_regressor, poly_params, cv=5, scoring='neg_mean_squared_error')
+    ---> 88 poly_grid_search.fit(X_train_poly, y_train)
+         89 print("Polynomial Regression - Best Parameters:", poly_grid_search.best_params_)
+         90 print("Polynomial Regression - Best Cross-validation RMSE:", np.sqrt(-poly_grid_search.best_score_))
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\model_selection\_search.py:874, in BaseSearchCV.fit(self, X, y, groups, **fit_params)
+        868     results = self._format_results(
+        869         all_candidate_params, n_splits, all_out, all_more_results
+        870     )
+        872     return results
+    --> 874 self._run_search(evaluate_candidates)
+        876 # multimetric is determined here because in the case of a callable
+        877 # self.scoring the return type is only known after calling
+        878 first_test_score = all_out[0]["test_scores"]
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\model_selection\_search.py:1388, in GridSearchCV._run_search(self, evaluate_candidates)
+       1386 def _run_search(self, evaluate_candidates):
+       1387     """Search all candidates in param_grid"""
+    -> 1388     evaluate_candidates(ParameterGrid(self.param_grid))
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\model_selection\_search.py:821, in BaseSearchCV.fit.<locals>.evaluate_candidates(candidate_params, cv, more_results)
+        813 if self.verbose > 0:
+        814     print(
+        815         "Fitting {0} folds for each of {1} candidates,"
+        816         " totalling {2} fits".format(
+        817             n_splits, n_candidates, n_candidates * n_splits
+        818         )
+        819     )
+    --> 821 out = parallel(
+        822     delayed(_fit_and_score)(
+        823         clone(base_estimator),
+        824         X,
+        825         y,
+        826         train=train,
+        827         test=test,
+        828         parameters=parameters,
+        829         split_progress=(split_idx, n_splits),
+        830         candidate_progress=(cand_idx, n_candidates),
+        831         **fit_and_score_kwargs,
+        832     )
+        833     for (cand_idx, parameters), (split_idx, (train, test)) in product(
+        834         enumerate(candidate_params), enumerate(cv.split(X, y, groups))
+        835     )
+        836 )
+        838 if len(out) < 1:
+        839     raise ValueError(
+        840         "No fits were performed. "
+        841         "Was the CV iterator empty? "
+        842         "Were there no candidates?"
+        843     )
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\utils\parallel.py:63, in Parallel.__call__(self, iterable)
+         58 config = get_config()
+         59 iterable_with_config = (
+         60     (_with_config(delayed_func, config), args, kwargs)
+         61     for delayed_func, args, kwargs in iterable
+         62 )
+    ---> 63 return super().__call__(iterable_with_config)
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\parallel.py:1048, in Parallel.__call__(self, iterable)
+       1039 try:
+       1040     # Only set self._iterating to True if at least a batch
+       1041     # was dispatched. In particular this covers the edge
+       (...)
+       1045     # was very quick and its callback already dispatched all the
+       1046     # remaining jobs.
+       1047     self._iterating = False
+    -> 1048     if self.dispatch_one_batch(iterator):
+       1049         self._iterating = self._original_iterator is not None
+       1051     while self.dispatch_one_batch(iterator):
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\parallel.py:864, in Parallel.dispatch_one_batch(self, iterator)
+        862     return False
+        863 else:
+    --> 864     self._dispatch(tasks)
+        865     return True
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\parallel.py:782, in Parallel._dispatch(self, batch)
+        780 with self._lock:
+        781     job_idx = len(self._jobs)
+    --> 782     job = self._backend.apply_async(batch, callback=cb)
+        783     # A job can complete so quickly than its callback is
+        784     # called before we get here, causing self._jobs to
+        785     # grow. To ensure correct results ordering, .insert is
+        786     # used (rather than .append) in the following line
+        787     self._jobs.insert(job_idx, job)
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\_parallel_backends.py:208, in SequentialBackend.apply_async(self, func, callback)
+        206 def apply_async(self, func, callback=None):
+        207     """Schedule a func to be run"""
+    --> 208     result = ImmediateResult(func)
+        209     if callback:
+        210         callback(result)
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\_parallel_backends.py:572, in ImmediateResult.__init__(self, batch)
+        569 def __init__(self, batch):
+        570     # Don't delay the application, to avoid keeping the input
+        571     # arguments in memory
+    --> 572     self.results = batch()
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\parallel.py:263, in BatchedCalls.__call__(self)
+        259 def __call__(self):
+        260     # Set the default nested backend to self._backend but do not set the
+        261     # change the default number of processes to -1
+        262     with parallel_backend(self._backend, n_jobs=self._n_jobs):
+    --> 263         return [func(*args, **kwargs)
+        264                 for func, args, kwargs in self.items]
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\joblib\parallel.py:263, in <listcomp>(.0)
+        259 def __call__(self):
+        260     # Set the default nested backend to self._backend but do not set the
+        261     # change the default number of processes to -1
+        262     with parallel_backend(self._backend, n_jobs=self._n_jobs):
+    --> 263         return [func(*args, **kwargs)
+        264                 for func, args, kwargs in self.items]
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\utils\parallel.py:123, in _FuncWrapper.__call__(self, *args, **kwargs)
+        121     config = {}
+        122 with config_context(**config):
+    --> 123     return self.function(*args, **kwargs)
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py:674, in _fit_and_score(estimator, X, y, scorer, train, test, verbose, parameters, fit_params, return_train_score, return_parameters, return_n_test_samples, return_times, return_estimator, split_progress, candidate_progress, error_score)
+        671     for k, v in parameters.items():
+        672         cloned_parameters[k] = clone(v, safe=False)
+    --> 674     estimator = estimator.set_params(**cloned_parameters)
+        676 start_time = time.time()
+        678 X_train, y_train = _safe_split(estimator, X, y, train)
+    
+
+    File ~\AppData\Local\anaconda3\lib\site-packages\sklearn\base.py:205, in BaseEstimator.set_params(self, **params)
+        203 if key not in valid_params:
+        204     local_valid_params = self._get_param_names()
+    --> 205     raise ValueError(
+        206         f"Invalid parameter {key!r} for estimator {self}. "
+        207         f"Valid parameters are: {local_valid_params!r}."
+        208     )
+        210 if delim:
+        211     nested_params[key][sub_key] = value
+    
+
+    ValueError: Invalid parameter 'normalize' for estimator LinearRegression(). Valid parameters are: ['copy_X', 'fit_intercept', 'n_jobs', 'positive'].
+
+
 
 ```python
 from sklearn.tree import DecisionTreeRegressor
 dtree = DecisionTreeRegressor(random_state=0, max_depth=None, max_features='auto', min_samples_leaf=1, min_samples_split=2)
 dtree.fit(X_train, y_train)
 ```
+
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    
+
+
+
+
+<style>#sk-container-id-5 {color: black;background-color: white;}#sk-container-id-5 pre{padding: 0;}#sk-container-id-5 div.sk-toggleable {background-color: white;}#sk-container-id-5 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-5 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-5 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-5 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-5 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-5 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-5 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-5 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-5 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-5 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-5 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-5 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-5 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-5 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-5 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-5 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-5 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-5 div.sk-item {position: relative;z-index: 1;}#sk-container-id-5 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-5 div.sk-item::before, #sk-container-id-5 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-5 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-5 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-5 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-5 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-5 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-5 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-5 div.sk-label-container {text-align: center;}#sk-container-id-5 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-5 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-5" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeRegressor(max_features=&#x27;auto&#x27;, random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-5" type="checkbox" checked><label for="sk-estimator-id-5" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeRegressor</label><div class="sk-toggleable__content"><pre>DecisionTreeRegressor(max_features=&#x27;auto&#x27;, random_state=0)</pre></div></div></div></div></div>
+
+
 
 
 ```python
@@ -2471,6 +3272,12 @@ print('MSE is {}'.format(mse))
 print('R2 score is {}'.format(r2))
 print('RMSE score is {}'.format(rmse))
 ```
+
+    MAE is 1057.7176870748299
+    MSE is 2261714.758503401
+    R2 score is 0.8947501538883947
+    RMSE score is 1503.8998498914086
+    
 
 
 ```python
@@ -2490,12 +3297,27 @@ plt.show()
 ```
 
 
+    
+![png](output_62_0.png)
+    
+
+
+
 ```python
 import shap
 explainer = shap.TreeExplainer(dtree)
 shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test)
 ```
+
+    No data for colormapping provided via 'c'. Parameters 'vmin', 'vmax' will be ignored
+    
+
+
+    
+![png](output_63_1.png)
+    
+
 
 
 ```python
@@ -2505,11 +3327,24 @@ shap.plots.waterfall(shap_values[0])
 ```
 
 
+    
+![png](output_64_0.png)
+    
+
+
+
 ```python
 from sklearn.ensemble import RandomForestRegressor
 rf = RandomForestRegressor(random_state=0, max_depth=None, min_samples_split=2, n_estimators= 100)
 rf.fit(X_train, y_train)
 ```
+
+
+
+
+<style>#sk-container-id-6 {color: black;background-color: white;}#sk-container-id-6 pre{padding: 0;}#sk-container-id-6 div.sk-toggleable {background-color: white;}#sk-container-id-6 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-6 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-6 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-6 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-6 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-6 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-6 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-6 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-6 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-6 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-6 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-6 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-6 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-6 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-6 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-6 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-6 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-6 div.sk-item {position: relative;z-index: 1;}#sk-container-id-6 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-6 div.sk-item::before, #sk-container-id-6 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-6 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-6 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-6 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-6 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-6 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-6 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-6 div.sk-label-container {text-align: center;}#sk-container-id-6 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-6 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-6" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestRegressor(random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-6" type="checkbox" checked><label for="sk-estimator-id-6" class="sk-toggleable__label sk-toggleable__label-arrow">RandomForestRegressor</label><div class="sk-toggleable__content"><pre>RandomForestRegressor(random_state=0)</pre></div></div></div></div></div>
+
+
 
 
 ```python
@@ -2530,6 +3365,13 @@ print('R2 score is {}'.format(r2))
 print('RMSE score is {}'.format(rmse))
 ```
 
+    MAE is 824.4084013605442
+    MAPE is 0.15823480076159305
+    MSE is 1265245.3369676871
+    R2 score is 0.9411212768946191
+    RMSE score is 1124.8312482180104
+    
+
 
 ```python
 imp_df = pd.DataFrame({
@@ -2548,12 +3390,27 @@ plt.show()
 ```
 
 
+    
+![png](output_67_0.png)
+    
+
+
+
 ```python
 import shap
 explainer = shap.TreeExplainer(rf)
 shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test)
 ```
+
+    No data for colormapping provided via 'c'. Parameters 'vmin', 'vmax' will be ignored
+    
+
+
+    
+![png](output_68_1.png)
+    
+
 
 
 ```python
@@ -2563,11 +3420,44 @@ shap.plots.waterfall(shap_values[0])
 ```
 
 
+    
+![png](output_69_0.png)
+    
+
+
+
 ```python
 from xgboost import XGBRegressor
 xgb_regressor = XGBRegressor(learning_rate= 0.1, max_depth= 7, n_estimators= 150)
 xgb_regressor.fit(X_train, y_train)
 ```
+
+
+
+
+<style>#sk-container-id-7 {color: black;background-color: white;}#sk-container-id-7 pre{padding: 0;}#sk-container-id-7 div.sk-toggleable {background-color: white;}#sk-container-id-7 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-7 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-7 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-7 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-7 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-7 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-7 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-7 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-7 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-7 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-7 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-7 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-7 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-7 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-7 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-7 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-7 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-7 div.sk-item {position: relative;z-index: 1;}#sk-container-id-7 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-7 div.sk-item::before, #sk-container-id-7 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-7 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-7 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-7 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-7 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-7 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-7 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-7 div.sk-label-container {text-align: center;}#sk-container-id-7 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-7 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-7" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=7, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=150, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=None, ...)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-7" type="checkbox" checked><label for="sk-estimator-id-7" class="sk-toggleable__label sk-toggleable__label-arrow">XGBRegressor</label><div class="sk-toggleable__content"><pre>XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=7, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=150, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=None, ...)</pre></div></div></div></div></div>
+
+
 
 
 ```python
@@ -2588,6 +3478,13 @@ print('R2 score is {}'.format(r2))
 print('RMSE score is {}'.format(rmse))
 ```
 
+    MAE is 855.2207770315157
+    MAPE is 0.1637233702540566
+    MSE is 1298166.5994534201
+    R2 score is 0.9395892721193061
+    RMSE score is 1139.3711421013875
+    
+
 
 ```python
 import shap
@@ -2596,12 +3493,27 @@ shap_values = explainer.shap_values(X_test)
 shap.summary_plot(shap_values, X_test)
 ```
 
+    No data for colormapping provided via 'c'. Parameters 'vmin', 'vmax' will be ignored
+    
+
+
+    
+![png](output_72_1.png)
+    
+
+
 
 ```python
 explainer = shap.Explainer(xgb_regressor, X_test, check_additivity=False)
 shap_values = explainer(X_test, check_additivity=False)
 shap.plots.waterfall(shap_values[0])
 ```
+
+
+    
+![png](output_73_0.png)
+    
+
 
 
 ```python
@@ -2613,6 +3525,13 @@ linreg = LinearRegression(fit_intercept=True)
 linreg.fit(X_train, y_train)
 
 ```
+
+
+
+
+<style>#sk-container-id-8 {color: black;background-color: white;}#sk-container-id-8 pre{padding: 0;}#sk-container-id-8 div.sk-toggleable {background-color: white;}#sk-container-id-8 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-8 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-8 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-8 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-8 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-8 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-8 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-8 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-8 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-8 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-8 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-8 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-8 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-8 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-8 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-8 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-8 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-8 div.sk-item {position: relative;z-index: 1;}#sk-container-id-8 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-8 div.sk-item::before, #sk-container-id-8 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-8 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-8 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-8 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-8 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-8 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-8 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-8 div.sk-label-container {text-align: center;}#sk-container-id-8 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-8 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-8" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-8" type="checkbox" checked><label for="sk-estimator-id-8" class="sk-toggleable__label sk-toggleable__label-arrow">LinearRegression</label><div class="sk-toggleable__content"><pre>LinearRegression()</pre></div></div></div></div></div>
+
+
 
 
 ```python
@@ -2632,6 +3551,13 @@ print('MSE is {}'.format(mse))
 print('R2 score is {}'.format(r2))
 print('RMSE score is {}'.format(rmse))
 ```
+
+    MAE is 1072.7583953678734
+    MAPE is 0.2100788760814782
+    MSE is 1890852.5058035417
+    R2 score is 0.9120083845642613
+    RMSE score is 1375.0827268944738
+    
 
 
 ```python
@@ -2654,6 +3580,12 @@ plt.xlabel('Importance', fontsize=16)
 plt.ylabel('Feature Name', fontsize=16)
 plt.show()
 ```
+
+
+    
+![png](output_76_0.png)
+    
+
 
 
 ```python
@@ -2759,10 +3691,105 @@ metrics_df = pd.DataFrame(metrics_data)
 metrics_df
 ```
 
+    `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0'`.
+    
 
-```python
 
-```
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Regressor</th>
+      <th>R2 (Train)</th>
+      <th>R2 (Test)</th>
+      <th>MSE (Train)</th>
+      <th>MSE (Test)</th>
+      <th>RMSE (Train)</th>
+      <th>RMSE (Test)</th>
+      <th>MAE (Train)</th>
+      <th>MAE (Test)</th>
+      <th>MAPE (Train)</th>
+      <th>MAPE (Test)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Linear Regression</td>
+      <td>0.892196</td>
+      <td>0.912008</td>
+      <td>1.967478e+06</td>
+      <td>1.890853e+06</td>
+      <td>1402.668045</td>
+      <td>1375.082727</td>
+      <td>1046.836380</td>
+      <td>1072.758395</td>
+      <td>0.217434</td>
+      <td>0.210079</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Decision Tree Regressor</td>
+      <td>1.000000</td>
+      <td>0.894750</td>
+      <td>0.000000e+00</td>
+      <td>2.261715e+06</td>
+      <td>0.000000</td>
+      <td>1503.899850</td>
+      <td>0.000000</td>
+      <td>1057.717687</td>
+      <td>0.000000</td>
+      <td>0.200839</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Random Forest Regressor</td>
+      <td>0.989246</td>
+      <td>0.941121</td>
+      <td>1.962651e+05</td>
+      <td>1.265245e+06</td>
+      <td>443.018128</td>
+      <td>1124.831248</td>
+      <td>321.622367</td>
+      <td>824.408401</td>
+      <td>0.070875</td>
+      <td>0.158235</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>XGBoost Regressor</td>
+      <td>0.999487</td>
+      <td>0.939589</td>
+      <td>9.366562e+03</td>
+      <td>1.298167e+06</td>
+      <td>96.780998</td>
+      <td>1139.371142</td>
+      <td>65.340653</td>
+      <td>855.220777</td>
+      <td>0.016758</td>
+      <td>0.163723</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 
 
 ```python
@@ -2780,6 +3807,81 @@ columns_to_drop = ['EmployeeNumber', 'StandardHours', 'Over18', 'PerformanceRati
 df2.drop(columns=columns_to_drop, inplace=True)
 
 ```
+
+    Column Names: Index(['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department',
+           'DistanceFromHome', 'Education', 'EducationField', 'EmployeeCount',
+           'EmployeeNumber', 'EnvironmentSatisfaction', 'Gender', 'HourlyRate',
+           'JobInvolvement', 'JobLevel', 'JobRole', 'JobSatisfaction',
+           'MaritalStatus', 'MonthlyIncome', 'MonthlyRate', 'NumCompaniesWorked',
+           'Over18', 'OverTime', 'PercentSalaryHike', 'PerformanceRating',
+           'RelationshipSatisfaction', 'StandardHours', 'StockOptionLevel',
+           'TotalWorkingYears', 'TrainingTimesLastYear', 'WorkLifeBalance',
+           'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion',
+           'YearsWithCurrManager'],
+          dtype='object')
+       Age Attrition     BusinessTravel  DailyRate              Department  \
+    0   41       Yes      Travel_Rarely       1102                   Sales   
+    1   49        No  Travel_Frequently        279  Research & Development   
+    2   37       Yes      Travel_Rarely       1373  Research & Development   
+    3   33        No  Travel_Frequently       1392  Research & Development   
+    4   27        No      Travel_Rarely        591  Research & Development   
+    
+       DistanceFromHome  Education EducationField  EmployeeCount  EmployeeNumber  \
+    0                 1          2  Life Sciences              1               1   
+    1                 8          1  Life Sciences              1               2   
+    2                 2          2          Other              1               4   
+    3                 3          4  Life Sciences              1               5   
+    4                 2          1        Medical              1               7   
+    
+       EnvironmentSatisfaction  Gender  HourlyRate  JobInvolvement  JobLevel  \
+    0                        2  Female          94               3         2   
+    1                        3    Male          61               2         2   
+    2                        4    Male          92               2         1   
+    3                        4  Female          56               3         1   
+    4                        1    Male          40               3         1   
+    
+                     JobRole  JobSatisfaction MaritalStatus  MonthlyIncome  \
+    0        Sales Executive                4        Single           5993   
+    1     Research Scientist                2       Married           5130   
+    2  Laboratory Technician                3        Single           2090   
+    3     Research Scientist                3       Married           2909   
+    4  Laboratory Technician                2       Married           3468   
+    
+       MonthlyRate  NumCompaniesWorked Over18 OverTime  PercentSalaryHike  \
+    0        19479                   8      Y      Yes                 11   
+    1        24907                   1      Y       No                 23   
+    2         2396                   6      Y      Yes                 15   
+    3        23159                   1      Y      Yes                 11   
+    4        16632                   9      Y       No                 12   
+    
+       PerformanceRating  RelationshipSatisfaction  StandardHours  \
+    0                  3                         1             80   
+    1                  4                         4             80   
+    2                  3                         2             80   
+    3                  3                         3             80   
+    4                  3                         4             80   
+    
+       StockOptionLevel  TotalWorkingYears  TrainingTimesLastYear  \
+    0                 0                  8                      0   
+    1                 1                 10                      3   
+    2                 0                  7                      3   
+    3                 0                  8                      3   
+    4                 1                  6                      3   
+    
+       WorkLifeBalance  YearsAtCompany  YearsInCurrentRole  \
+    0                1               6                   4   
+    1                3              10                   7   
+    2                3               0                   0   
+    3                3               8                   7   
+    4                3               2                   2   
+    
+       YearsSinceLastPromotion  YearsWithCurrManager  
+    0                        0                     5  
+    1                        1                     7  
+    2                        0                     0  
+    3                        3                     0  
+    4                        2                     2  
+    
 
 
 ```python
@@ -2829,6 +3931,60 @@ find_optimal_k_elbow(X, max_k)
 # Mencari nilai k optimal menggunakan Silhouette Score
 find_optimal_k_silhouette(X, max_k)
 ```
+
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    
+
+
+    
+![png](output_79_1.png)
+    
+
+
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    
+
+
+    
+![png](output_79_3.png)
+    
+
 
 
 ```python
@@ -2895,6 +4051,486 @@ df2
 
 ```
 
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    
+
+
+    
+![png](output_80_1.png)
+    
+
+
+    The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+    KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=6.
+    
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Attrition</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EmployeeCount</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>HourlyRate</th>
+      <th>JobInvolvement</th>
+      <th>JobLevel</th>
+      <th>JobRole</th>
+      <th>JobSatisfaction</th>
+      <th>MaritalStatus</th>
+      <th>MonthlyIncome</th>
+      <th>MonthlyRate</th>
+      <th>NumCompaniesWorked</th>
+      <th>OverTime</th>
+      <th>PercentSalaryHike</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>41</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1102</td>
+      <td>Sales</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Female</td>
+      <td>94</td>
+      <td>3</td>
+      <td>2</td>
+      <td>Sales Executive</td>
+      <td>4</td>
+      <td>Single</td>
+      <td>5993</td>
+      <td>19479</td>
+      <td>8</td>
+      <td>Yes</td>
+      <td>11</td>
+      <td>1</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>49</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>279</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Male</td>
+      <td>61</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Research Scientist</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>5130</td>
+      <td>24907</td>
+      <td>1</td>
+      <td>No</td>
+      <td>23</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>37</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1373</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Other</td>
+      <td>1</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>92</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Laboratory Technician</td>
+      <td>3</td>
+      <td>Single</td>
+      <td>2090</td>
+      <td>2396</td>
+      <td>6</td>
+      <td>Yes</td>
+      <td>15</td>
+      <td>2</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>33</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>1392</td>
+      <td>Research &amp; Development</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>4</td>
+      <td>Female</td>
+      <td>56</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Research Scientist</td>
+      <td>3</td>
+      <td>Married</td>
+      <td>2909</td>
+      <td>23159</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>11</td>
+      <td>3</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>591</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Male</td>
+      <td>40</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Laboratory Technician</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>3468</td>
+      <td>16632</td>
+      <td>9</td>
+      <td>No</td>
+      <td>12</td>
+      <td>4</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1465</th>
+      <td>36</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>884</td>
+      <td>Research &amp; Development</td>
+      <td>23</td>
+      <td>2</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Male</td>
+      <td>41</td>
+      <td>4</td>
+      <td>2</td>
+      <td>Laboratory Technician</td>
+      <td>4</td>
+      <td>Married</td>
+      <td>2571</td>
+      <td>12290</td>
+      <td>4</td>
+      <td>No</td>
+      <td>17</td>
+      <td>3</td>
+      <td>1</td>
+      <td>17</td>
+      <td>3</td>
+      <td>3</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1466</th>
+      <td>39</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>613</td>
+      <td>Research &amp; Development</td>
+      <td>6</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>42</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Healthcare Representative</td>
+      <td>1</td>
+      <td>Married</td>
+      <td>9991</td>
+      <td>21457</td>
+      <td>4</td>
+      <td>No</td>
+      <td>15</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9</td>
+      <td>5</td>
+      <td>3</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1467</th>
+      <td>27</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>155</td>
+      <td>Research &amp; Development</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Male</td>
+      <td>87</td>
+      <td>4</td>
+      <td>2</td>
+      <td>Manufacturing Director</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>6142</td>
+      <td>5174</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>20</td>
+      <td>2</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>3</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1468</th>
+      <td>49</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>1023</td>
+      <td>Sales</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>63</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Sales Executive</td>
+      <td>2</td>
+      <td>Married</td>
+      <td>5390</td>
+      <td>13243</td>
+      <td>2</td>
+      <td>No</td>
+      <td>14</td>
+      <td>4</td>
+      <td>0</td>
+      <td>17</td>
+      <td>3</td>
+      <td>2</td>
+      <td>9</td>
+      <td>6</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1469</th>
+      <td>34</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>628</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>3</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Male</td>
+      <td>82</td>
+      <td>4</td>
+      <td>2</td>
+      <td>Laboratory Technician</td>
+      <td>3</td>
+      <td>Married</td>
+      <td>4404</td>
+      <td>10228</td>
+      <td>2</td>
+      <td>No</td>
+      <td>12</td>
+      <td>1</td>
+      <td>0</td>
+      <td>6</td>
+      <td>3</td>
+      <td>4</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>1470 rows × 32 columns</p>
+</div>
+
+
+
 
 ```python
 from mpl_toolkits.mplot3d import Axes3D
@@ -2921,73 +4557,7 @@ plt.show()
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    KeyError                                  Traceback (most recent call last)
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\pandas\core\indexes\base.py:3802, in Index.get_loc(self, key, method, tolerance)
-       3801 try:
-    -> 3802     return self._engine.get_loc(casted_key)
-       3803 except KeyError as err:
+    
+![png](output_81_0.png)
     
 
-    File ~\AppData\Local\anaconda3\lib\site-packages\pandas\_libs\index.pyx:138, in pandas._libs.index.IndexEngine.get_loc()
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\pandas\_libs\index.pyx:165, in pandas._libs.index.IndexEngine.get_loc()
-    
-
-    File pandas\_libs\hashtable_class_helper.pxi:5745, in pandas._libs.hashtable.PyObjectHashTable.get_item()
-    
-
-    File pandas\_libs\hashtable_class_helper.pxi:5753, in pandas._libs.hashtable.PyObjectHashTable.get_item()
-    
-
-    KeyError: 'label'
-
-    
-    The above exception was the direct cause of the following exception:
-    
-
-    KeyError                                  Traceback (most recent call last)
-
-    Cell In[299], line 8
-          5 ax = fig.add_subplot(111, projection='3d')
-          7 # Create a colormap for the clusters
-    ----> 8 colors = plt.cm.tab10(df2['label'] / float(max(df2['label'])))
-         10 # Plot the data points
-         11 ax.scatter(df2['MonthlyIncome'], df2['Age'], df2['DailyRate'], c=colors, s=50)
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\pandas\core\frame.py:3807, in DataFrame.__getitem__(self, key)
-       3805 if self.columns.nlevels > 1:
-       3806     return self._getitem_multilevel(key)
-    -> 3807 indexer = self.columns.get_loc(key)
-       3808 if is_integer(indexer):
-       3809     indexer = [indexer]
-    
-
-    File ~\AppData\Local\anaconda3\lib\site-packages\pandas\core\indexes\base.py:3804, in Index.get_loc(self, key, method, tolerance)
-       3802     return self._engine.get_loc(casted_key)
-       3803 except KeyError as err:
-    -> 3804     raise KeyError(key) from err
-       3805 except TypeError:
-       3806     # If we have a listlike key, _check_indexing_error will raise
-       3807     #  InvalidIndexError. Otherwise we fall through and re-raise
-       3808     #  the TypeError.
-       3809     self._check_indexing_error(key)
-    
-
-    KeyError: 'label'
-
-
-
-    
-![png](output_82_1.png)
-    
-
-
-
-```python
-
-```
