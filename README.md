@@ -63,7 +63,5 @@ YearsWithCurrManager - Years with the current manager
 
 [PredictingEmployeeAttrition - Jupyter Notebook.pdf](https://github.com/NabidAlam/PredictingEmployeeAttrition/files/12235084/PredictingEmployeeAttrition.-.Jupyter.Notebook.pdf)
 
-![Alt Text](https://github.com/NabidAlam/PredictingEmployeeAttrition/tree/main/PredictingEmployeeAttrition/output_5_0.png)
-![Sample Image](https://github.com/NabidAlam/PredictingEmployeeAttrition/tree/main/PredictingEmployeeAttrition/output_5_0.png)
-
+![Alt Text](https://github.com/NabidAlam/PredictingEmployeeAttrition/blob/main/PredictingEmployeeAttrition/output_5_0.png)
 
