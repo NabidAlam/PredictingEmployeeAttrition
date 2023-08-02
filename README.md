@@ -60,3 +60,8 @@ YearsAtCompany - Years at Company
 YearsInCurrentRole - Years in the current role
 YearsSinceLastPromotion - Years since the last promotion
 YearsWithCurrManager - Years with the current manager
+
+[PredictingEmployeeAttrition - Jupyter Notebook.pdf](https://github.com/NabidAlam/PredictingEmployeeAttrition/files/12235084/PredictingEmployeeAttrition.-.Jupyter.Notebook.pdf)
+
+
+
